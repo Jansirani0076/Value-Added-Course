@@ -67,6 +67,7 @@ docker stop <container_id>
 ```
 <img width="695" height="91" alt="image" src="https://github.com/user-attachments/assets/c629c170-6222-404d-8c57-4bd23ed02061" />
 
+<container_id>  \\ paste ID like ; 4bd23ed02061 \\
 ```bash
 docker start <container_id>
 ```
@@ -77,6 +78,7 @@ docker rm <container_id>
 ```
 <img width="333" height="31" alt="image" src="https://github.com/user-attachments/assets/e853dc2d-705b-48e2-8f89-ffe9a1aa2a57" />
 
+docker ps -a   \\ check for docker running container \\
 ---
 
 ## 🔹 **4. Inspect & Logs**
@@ -86,6 +88,7 @@ docker logs <container_id>
 ```
 <img width="692" height="177" alt="image" src="https://github.com/user-attachments/assets/fe7fc24f-82b4-4c0b-8a1a-d2247be532a8" />
 
+Include <container_Id> or name  \\Example ; docker logs d2247be532a8 
 ```bash
 docker inspect <container_id>
 ```
