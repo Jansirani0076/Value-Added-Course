@@ -31,6 +31,8 @@ docker images
 ```
 <img width="426" height="83" alt="image" src="https://github.com/user-attachments/assets/22c38330-6ae8-4618-ac50-8d94049cec04" />
 
+Type "exit"
+
 ```bash
 docker rmi ubuntu
 ```
